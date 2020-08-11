@@ -28,6 +28,20 @@ header{
 	margin-left:15%;
 }
 
+@media screen and (max-width:820px){
+	#favourite{
+		width: 50px;
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width:700px){
+	#favourite{
+		width: 40px;
+		margin-left: 10px;
+	}
+}
+
 #search-bar-container{
 	margin-left: 15%;
 }
@@ -98,7 +112,7 @@ div img{
 #top-categories{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
 }
 
@@ -115,6 +129,54 @@ div img{
 #top-categories div img{
 	height: 220px;
 	width: 240px;
+}
+
+@media screen and (max-width:1200px){
+	#top-categories div{
+		height: 250px;
+		width: 300px; 
+	}
+	
+	#top-categories div img{
+		height: 250px;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width:950px){
+	#top-categories div{
+		height: 200px;
+		width: 250px; 
+	}
+	
+	#top-categories div img{
+		height: 200px;
+		width: 250px;
+	}
+}
+
+@media screen and (max-width:950px){
+	#top-categories div{
+		height: 200px;
+		width: 250px; 
+	}
+	
+	#top-categories div img{
+		height: 200px;
+		width: 250px;
+	}
+}
+
+@media screen and (max-width:820px){
+	#top-categories div{
+		height: 160px;
+		width: 200px; 
+	}
+	
+	#top-categories div img{
+		height: 160px;
+		width: 200px;
+	}
 }
 
 #latest-release{
@@ -320,6 +382,14 @@ div img{
 
 }
 
+@media screen and (max-width:1200px){
+	#main-content{
+		margin-left: 2%; 
+		width: 95%;
+		display: inline-block;
+		margin-bottom: 75px;
+	}
+}
 
 /* ------- aside-section ---------- */
 
@@ -417,6 +487,15 @@ aside::-webkit-scrollbar {
 	width: 6%;
 	height: 50px;
 }
+
+@media screen and (max-width:1200px){
+    aside{
+		width: 0px;
+		height: 0px;
+		overflow: hidden;
+	}
+}
+
 
 /* --- Bottom Music Player --- */
  

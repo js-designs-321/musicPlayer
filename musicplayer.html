@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="musicplayer.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<div>
+			<div id="studio-logo-container"><img class="circular" src="images/studio-logo.jpg"></div>
+		</div>
+		<div id="studio-name" class="flex-column-center">
+			<div class="white-color bold">Ninja</div>
+			<div class="white-color bold heading">Studio</div>
+		</div>
+		<div id="favourite" class="flex-column-center">
+			<div class="white-color">Favourites</div> 
+		</div>
+		<div id="search-bar-container" class="flex-column-center">
+			<div id="search-bar">
+				<div class="search"><img src="images/search-icon.png"></div>
+				<div id="search-space"><input type="text" name="search" placeholder="Search"></div>
+				<div class="search"><img src="images/voice-search-icon.png"></div>
+			</div>
+		</div>
+		<div  id="notification">
+			<i class="far fa-bell white-color"></i>
+		</div>
+		<div id="profile">
+			<div ><img class="circular" src="images/profile-image.png"></div>
+		</div>
+
+	</header>
+
+	<section id="main-content" class="mb50px">
+		<div id="top-categories">
+			<div class="zoom">
+				<img src="images/top-categories-1.jpg">
+			</div>
+			<div class="zoom">
+				<img src="images/top-categories-2.jpg">
+			</div>
+			<div class="zoom">
+				<img src="images/top-categories-3.png">
+			</div>
+		</div>
+
+		<div>	
+			<div class="white-color mb50px heading">Latest Release</div>
+
+			<div id="latest-release" class="mb25px">
+				<div class="song-info">
+					<div class="container">	
+						<div class="song-icon">
+							<a href="#bottom-music-player">
+							<img class="image" src="images/new-release-1.png">
+							</a>
+						</div>
+						<div class="middle">
+							<i class="far fa-play-circle white-color"></i>
+						</div>
+					</div>
+					<div class="song-name-singer-name">
+						<div class="song-name-styling">Stuck With You</div>
+						<div class="rest-styling">Ariana Grande & Justin Bieber</div>
+					</div>
+					<div class="song-more-info">
+						<div class="dropdown">
+  							<button class="dropbtn white-color bold">
+  								...
+  							</button>
+	 						<div class="dropdown-content">
+	    						<p><i class="fas fa-play"></i>&emsp;Play Now</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Queue</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Favourites</p>
+	    						<p><i class="fas fa-info-circle"></i>&emsp;Get Info</p>
+	  						</div>
+						</div>
+					</div>
+				</div>
+				<div class="song-info">
+					<div class="container">	
+						<div class="song-icon">
+							<a href="#bottom-music-player">
+							<img class="image" src="images/new-release-2.jpg">
+							</a>
+						</div>
+						<div class="middle">
+							<i class="far fa-play-circle white-color"></i>
+						</div>
+					</div>
+					<div class="song-name-singer-name">
+						<div class="song-name-styling">Say You Love Me</div>
+						<div class="rest-styling">Chris Brown & Young Thug</div>
+					</div>
+					<div class="song-more-info">
+						<div class="dropdown">
+  							<button class="dropbtn white-color bold">
+  								...
+  							</button>
+	 						<div class="dropdown-content">
+	    						<p><i class="fas fa-play"></i>&emsp;Play Now</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Queue</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Favourites</p>
+	    						<p><i class="fas fa-info-circle"></i>&emsp;Get Info</p>
+	  						</div>
+						</div>
+					</div>
+				</div>
+				<div class="song-info">
+					<div class="container">	
+						<div class="song-icon">
+							<a href="#bottom-music-player">
+							<img class="image" src="images/new-release-3.jpg">
+							</a>
+						</div>
+						<div class="middle">
+							<i class="far fa-play-circle white-color"></i>
+						</div>
+					</div>
+					<div class="song-name-singer-name">
+						<div class="song-name-styling">Humein Tumse Pyaar</div>
+						<div class="rest-styling">Armaan Malik</div>
+					</div>
+					<div class="song-more-info">
+						<div class="dropdown">
+  							<button class="dropbtn white-color bold">
+  								...
+  							</button>
+	 						<div class="dropdown-content">
+	    						<p><i class="fas fa-play"></i>&emsp;Play Now</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Queue</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Favourites</p>
+	    						<p><i class="fas fa-info-circle"></i>&emsp;Get Info</p>
+	  						</div>
+						</div>
+					</div>
+				</div>
+				<div class="song-info">
+					<div class="container">	
+						<div class="song-icon">
+							<a href="#bottom-music-player">
+							<img class="image" src="images/latest-english-1.jpg">
+							</a>
+						</div>
+						<div class="middle">
+							<i class="far fa-play-circle white-color"></i>
+						</div>
+					</div>
+					<div class="song-name-singer-name">
+						<div class="song-name-styling">Be Kind</div>
+						<div class="rest-styling">Marshmello,Hashley</div>
+					</div>
+					<div class="song-more-info">
+						<div class="dropdown">
+  							<button class="dropbtn white-color bold">
+  								...
+  							</button>
+	 						<div class="dropdown-content">
+	    						<p><i class="fas fa-play"></i>&emsp;Play Now</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Queue</p>
+	    						<p><i class="fab fa-playstation"></i>&emsp;Add To Favourites</p>
+	    						<p><i class="fas fa-info-circle"></i>&emsp;Get Info</p>
+	  						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="white-color mb50px heading">Popular Artists</div>
+			
+			<div class="popular-artists mb25px">
+				<div class="zoom">
+					<a href="musicplayerpage2.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-1.jpg"></div>	
+					<div class="rest-styling artist-name">Arijit Singh</div>
+					</a>
+				</div>
+				<div class="zoom">
+					<a href="musicplayerpage3.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-2.jpg"></div>	
+					<div class="rest-styling artist-name">Kanika Kapoor</div>
+					</a>
+				</div>
+				<div class="zoom">
+					<a href="musicplayerpage4.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-3.jpeg"></div>	
+					<div class="rest-styling artist-name">Justin Bieber</div>
+					</a>
+				</div>
+				<div class="zoom">
+					<a href="musicplayerpage5.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-4.jpg"></div>	
+					<div class="rest-styling artist-name">Bruno Mars</div>
+					</a>
+				</div>
+				<div class="zoom">
+					<a href="musicplayerpage6.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-5.jpg"></div>	
+					<div class="rest-styling artist-name">Rihanna</div>
+					</a>
+				</div>
+				<div class="zoom">
+					<a href="musicplayerpage7.html" class="no-underline">
+					<div class="artist-image"><img class="circular" src="images/popular-artist-6.jpg"></div>	
+					<div class="rest-styling artist-name">Sonu Nigam</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			
+			<div id="play-stations" class="mb50px">
+				<div id="trending-music" class="play-station">
+					<div class="bold"><i class="fas fa-music"></i></div>
+					<div class="bold">Trending</div>
+				</div>
+				<div id="playstation-1" class="play-station back-image">
+					<div class="white-color bold">Love</div>
+				</div>
+				<div  id="playstation-2" class="play-station back-image">
+					<div class="white-color bold">Retro</div>
+				</div>
+				<div id="playstation-3" class="play-station back-image">
+					<div class="bold">Chill</div>
+				</div>
+				<div id="playstation-4" class="play-station back-image" >
+					<div class="bold">Workout</div>
+				</div>
+				<div  id="playstation-5" class="play-station back-image">
+					<div class="white-color bold" >Rock</div>
+				</div>
+				<div  id="playstation-6" class="play-station back-image">
+					<div class="bold">Pop</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="party-elec-road" class="mb50px">
+			<div class="containers">
+				<img class="zoom" src="images/party.jpg">
+				<div>Party</div>
+			</div>
+			<div class="containers">
+				<img class="zoom" src="images/electronic.jpg">
+				<div>Electronic</div>
+			</div>
+			<div class="containers">
+				<img class="zoom" src="images/road-trip.jpg">
+				<div>Road Trip</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="white-color mb50px heading">Latest Hindi</div>
+			
+			<div class="popular-artists mb25px">
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-1.jpg"></div>	
+					<div class="white-color artist-name">Bheegi Bheegi</div>
+					<div class="rest-styling artist-name">May 11, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-2.jpg"></div>	
+					<div class="white-color artist-name">Meri Maa</div>
+					<div class="rest-styling artist-name">May 08, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-3.jpg"></div>	
+					<div class="white-color artist-name">Saari ki Saari 2.0</div>
+					<div class="rest-styling artist-name">May 05, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-4.jpg"></div>	
+					<div class="white-color artist-name">Teri Mitti - Tribute</div>
+					<div class="rest-styling artist-name">May 01, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-5.jpg"></div>	
+					<div class="white-color artist-name">Chand ka Tukda</div>
+					<div class="rest-styling artist-name">April 29, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-hindi-6.jpg"></div>	
+					<div class="white-color artist-name">Bhula Dunga</div>
+					<div class="rest-styling artist-name">April 25, 2020</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="white-color mb50px heading">Latest English</div>
+			
+			<div class="popular-artists mb25px">
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-english-1.jpg"></div>	
+					<div class="white-color artist-name">Be Kind</div>
+					<div class="rest-styling artist-name">May 10, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-english-2.jpg"></div>	
+					<div class="white-color artist-name">Go Crazy</div>
+					<div class="rest-styling artist-name">May 09, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-english-3.jpg"></div>	
+					<div class="white-color artist-name">The Scotts</div>
+					<div class="rest-styling artist-name">May 03, 2020</div>
+				</div>
+				<div class="zoom"> 
+					<div class="artist-image"><img src="images/latest-english-4.jpg"></div>	
+					<div class="white-color artist-name">N.R.I</div>
+					<div class="rest-styling artist-name">May 02, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-english-5.jpg"></div>	
+					<div class="white-color artist-name">I'm Ready</div>
+					<div class="rest-styling artist-name">April 27, 2020</div>
+				</div>
+				<div class="zoom">
+					<div class="artist-image"><img src="images/latest-english-6.jpg"></div>	
+					<div class="white-color artist-name">Boyfriend</div>
+					<div class="rest-styling artist-name">April 23, 2020</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<aside class="mb50px">
+		<div id="aside-heading">
+			<div class="white-color heading bold">Queue</div>
+			<div>
+				<div class="dropdown">
+  					<button id="playlist-container" class="dropbtn blue-color">
+  						Queue <i class="fas fa-chevron-down"></i>
+  					</button>
+ 					<div class="dropdown-content">
+    					<p>Playlists</p>
+    					<p>Favourite Songs</p>
+  					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mb50px">
+			<div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">01</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/new-release-1.png"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Stuck With You</div>
+						<div class="lightgrey-color small-font">Ariana Grande & Justin Bieber</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">02</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-1.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Bheegi Bheegi</div>
+						<div class="lightgrey-color small-font">Neha Kakkar</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">03</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-english-1.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Be Kind</div>
+						<div class="lightgrey-color small-font">Hasley, Marshmello</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">04</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-english-2.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Go Crazy</div>
+						<div class="lightgrey-color small-font">Paul Davis</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">05</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-2.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Meri Maa</div>
+						<div class="lightgrey-color small-font">Jubin Nautiyal</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">06</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/new-release-2.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Say You Love Me</div>
+						<div class="lightgrey-color small-font">Chris Brown & Young Thug</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">07</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-3.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Saari ki Saari 2.0</div>
+						<div class="lightgrey-color small-font">Darshan Raval</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">08</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/new-release-3.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Humein Tumse Pyaar</div>
+						<div class="lightgrey-color small-font">Armaan Malik</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">09</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-english-3.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">The Scotts</div>
+						<div class="lightgrey-color small-font">Travis Scott</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">10</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-english-4.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">N.R.I</div>
+						<div class="lightgrey-color small-font">Vee Kapoor</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">11</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-4.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Teri Mitti - Tribute</div>
+						<div class="lightgrey-color small-font">B Praak,Arko,Manoj Muntashir</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">12</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-english-5.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">I'm Ready</div>
+						<div class="lightgrey-color small-font">AJR</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">13</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-5.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Chand ka Tukda</div>
+						<div class="lightgrey-color small-font">Tony Kakkar</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">14</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/new-release-4.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">I Love Me</div>
+						<div class="lightgrey-color small-font">Ema (Version)</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+				<div class="list color-change">
+					<div class="lightgrey-color number flex-column-center small-font">15</div>
+					<div class="icon flex-column-center"><img class="image-size" src="images/latest-hindi-6.jpg"></div>
+					<div class="info flex-column-center">
+						<div class="white-color">Bhula Dunga</div>
+						<div class="lightgrey-color small-font">Darshan Raval</div>
+					</div>
+					<div class="favourite flex-column-center">
+						<i class="far fa-heart flex-column-center lightgrey-color small-font"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</aside>
+
+	<div id="bottom-music-player">
+		<div id="song-info">
+			<div id="image"><img src="images/latest-english-1.jpg"></div>
+			<div id="names">
+				<div class="white-color bold">Be Kind</div>
+				<div class="lightgrey-color small-font">Hasley, Marshmello</div>
+			</div>
+			<div class ="like">
+				<i class="far fa-heart lightgrey-color"></i>
+			</div>
+			<div class ="like">
+				<i class="fas fa-ban lightgrey-color"></i>
+			</div>
+		</div>
+		<div id="controls">
+			<div id = "icons">
+				<i class="fas fa-random lightgrey-color"></i>
+				<i class="fas fa-step-backward lightgrey-color"></i>
+				<i id="play-button" class="far fa-pause-circle white-color"></i>
+				<i class="fas fa-step-forward lightgrey-color"></i>
+				<i class="fas fa-redo-alt lightgrey-color"></i>
+			</div>
+			<div id="play-info">
+				<div class="small-font lightgrey-color">1:30</div>
+				<div id="song-progress">
+					<div id="progress"></div>
+					<div><i class="fas fa-circle white-color"></i></div>
+				</div>
+				<div class="small-font lightgrey-color">4:59</div>
+			</div>
+		</div>
+		<div id="more-controls">
+			<div><i class="fas fa-sliders-h mb15px-left white-color small-font"></i></div>
+			<div><i class="fas fa-podcast mb15px-left white-color small-font"></i></div>
+			<div><i class="fas fa-volume-up mb15px-left white-color small-font"></i></div>
+			<div id="volume">
+				<div id="volume-progress"></div>
+				<div><i class="fas fa-circle white-color small-font"></i></div>
+			</div>
+			<div><i class="fas fa-compress mb15px-left white-color small-font"></i></div>
+			<div><a href="#"><i class="fas fa-times mb15px-left white-color small-font"></i></a></div>
+		</div>
+	</div>
+		
+
+</body>
+</html>
